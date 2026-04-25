@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Dean Trester — Business Intelligence practitioner. Selected data and dashboard work." />
-  <title>Dean Trester — Business Intelligence</title>
+  <meta name="description" content="Dean Trester, Business Intelligence. Data work and dashboards." />
+  <title>Dean Trester | Business Intelligence</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -242,17 +242,6 @@
       border:        1px solid var(--bg-shade);
       flex-shrink:   0;
     }
-    .hero-photo-label {
-      position:       absolute;
-      bottom:         1.25rem;
-      left:           0; right: 0;
-      text-align:     center;
-      font-family:    var(--f-mono);
-      font-size:      0.65rem;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
-      color:          var(--faint);
-    }
 
     .hero-text {
       display: grid;
@@ -438,7 +427,7 @@
       width:  100%;
       height: 100%;
       object-fit:      cover;
-      object-position: top left;
+      object-position: center 8px;
       transition: transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
     }
     .work-card:hover .work-thumb img { transform: scale(1.03); }
@@ -605,14 +594,14 @@
     <div class="container hero-inner">
 
       <div class="hero-photo">
-        <img src="./assets/photo.jpg" alt="Dean Trester" style="width:100%;height:100%;object-fit:cover;" />
+        <img src="./assets/photo.jpg" alt="Dean Trester" style="width:100%;height:100%;object-fit:cover;object-position:center -20px;" />
       </div>
 
       <div class="hero-text">
         <div class="eyebrow">Business Intelligence · Data Practice</div>
         <h1>Dean <em>Trester</em></h1>
         <p class="hero-sub">
-          I build business intelligence systems that turn messy data into clear decisions from models, pipelines, and dashboards to the conversations around them.
+          I build BI systems that turn messy data into clear decisions, in models, pipelines, dashboards, and the conversations around them.
         </p>
         <div class="hero-meta">
           <span>Based in<strong>United States</strong></span>
@@ -628,20 +617,19 @@
   <section id="about">
     <div class="container">
       <div class="section-label">
-        <span class="num">01</span>
         <span>About</span>
       </div>
       <div class="about-grid reveal">
-        <h2 class="about-heading">Clarity over <em>cleverness.</em></h2>
+        <h2 class="about-heading">Good data.<br><em>Better decisions.</em></h2>
         <div class="about-body">
           <p>
-            I'm a business intelligence practitioner with a decade of experience designing data models, building dashboards, and helping teams actually see what's happening in their businesses. Most of my work has been at the intersection of messy operational data and the people who need to make decisions with it.
+            I didn't plan to end up in BI. I came up through accounts payable exceptions, moved into procurement QA, and eventually landed in data analytics. Each step followed the same instinct: something's off, let me figure out what. That's still how I approach most problems. Data work, at its best, feels like detective work.
           </p>
           <p>
-            I'm currently based in the United States and looking to bring my practice to Japan. What draws me there is the same thing that draws me to this work: a culture of craft, rigor, and care for getting the details right.
+            Japan has been a pull since I was a kid. Anime before it was cool, the food, the culture, the language I always wished I'd learned in school. It was never a career calculation. I'm studying Japanese now and working toward making the move.
           </p>
           <p>
-            I care about clarity, honesty in data, and interfaces that don't get in the way. If that sounds like a fit, I'd love to talk.
+            On the work itself: I care about clean queries, well-structured models, and not overengineering things. I've inherited enough messy setups to know how much that stuff compounds. I try to leave things in a state I'd want to find them.
           </p>
         </div>
       </div>
@@ -651,7 +639,6 @@
   <section id="work">
     <div class="container">
       <div class="section-label">
-        <span class="num">02</span>
         <span>Selected Work</span>
       </div>
       <div class="work-grid">
@@ -659,7 +646,7 @@
         <!-- TODO: replace href="#" with live Render URL -->
         <a class="work-card reveal" href="#" target="_blank" rel="noopener">
           <div class="work-thumb">
-            <img src="./assets/japan-population.png" alt="Japanese Population dashboard — choropleth map, age pyramid, time series." loading="lazy" />
+            <img src="./assets/japan-population.png" alt="Japanese Population dashboard: choropleth map, age pyramid, time series." loading="lazy" />
           </div>
           <div class="work-meta">
             <span>Dashboard · 2025</span>
@@ -667,7 +654,7 @@
           </div>
           <h3 class="work-title">Japanese Population Dashboard</h3>
           <p class="work-desc">
-            A century of Japan's prefecture-level population data — animated across time, with age pyramids, regional choropleths, and a bilingual UI.
+            100 years of Japan's prefecture-level population data. Animated by year, with age pyramids, regional choropleths, and a bilingual interface.
           </p>
           <div class="work-tags">
             <span>Python</span><span>DuckDB</span><span>Plotly</span><span>Dash</span><span>SQL</span>
@@ -677,7 +664,7 @@
         <!-- TODO: replace href="#" with live Render URL -->
         <a class="work-card reveal" href="#" target="_blank" rel="noopener">
           <div class="work-thumb">
-            <img src="./assets/artemis-ii.png" alt="Artemis II Mission Playback — Earth-Moon trajectory and telemetry console." loading="lazy" />
+            <img src="./assets/artemis-ii.png" alt="Artemis II Mission Playback: Earth-Moon trajectory and telemetry console." loading="lazy" />
           </div>
           <div class="work-meta">
             <span>Dashboard · 2025</span>
@@ -685,7 +672,7 @@
           </div>
           <h3 class="work-title">Artemis II · Mission Playback</h3>
           <p class="work-desc">
-            A time-scrubbable playback of the Artemis II lunar trajectory — vectors, orbital state, gravitational pull, and comms range rendered as a mission-ops console.
+            A scrubbable playback of the Artemis II lunar trajectory. Vectors, orbital state, gravitational pull, and comms range in a mission-ops layout.
           </p>
           <div class="work-tags">
             <span>Python</span><span>Plotly</span><span>Dash</span><span>Orbital Mechanics</span>
@@ -699,7 +686,6 @@
   <section id="contact">
     <div class="container reveal">
       <div class="section-label">
-        <span class="num">03</span>
         <span>Contact</span>
       </div>
       <h2 class="contact-heading">Let's <em>talk.</em></h2>
