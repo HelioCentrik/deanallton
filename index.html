@@ -187,20 +187,21 @@
     .nav-links a:hover::after { width: 100%; }
 
     .theme-toggle {
-      background:     none;
-      border:         1px solid var(--bg-shade);
+      background:     var(--text);
+      color:          var(--bg);
+      border:         1px solid var(--text);
       border-radius:  999px;
       padding:        0.3rem 0.8rem;
       font-family:    var(--f-mono);
       font-size:      0.65rem;
       letter-spacing: 0.1em;
       text-transform: uppercase;
-      color:          var(--muted);
       cursor:         pointer;
-      transition:     color 0.2s, border-color 0.2s;
+      transition:     background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
     }
     .theme-toggle:hover {
-      color:         var(--accent);
+      background:    var(--accent);
+      color:         var(--bg);
       border-color:  var(--accent);
     }
 
@@ -278,7 +279,7 @@
       line-height:    0.95;
       letter-spacing: -0.03em;
       color:          var(--text);
-      margin-top:     1rem;
+      margin-top:     2rem;
     }
     .hero h1 em {
       font-style:  italic;
@@ -607,7 +608,7 @@
         <div class="eyebrow">Business Intelligence · Data Practice</div>
         <h1>Dean <em>Trester</em></h1>
         <p class="hero-sub">
-          I build BI systems that transform data into clear decisions, in models, pipelines, dashboards, and the conversations around them.
+          Building BI systems that transform data into clear decisions, in models, pipelines, dashboards, and the conversations around them.
         </p>
         <div class="hero-meta">
           <span>Based in<strong>United States</strong></span>
@@ -629,10 +630,10 @@
         <h2 class="about-heading">Good data.<br><em>Better decisions.</em></h2>
         <div class="about-body">
           <p>
-            I didn't plan to end up in BI. I came up through accounts payable exceptions, moved into procurement QA, and eventually landed in data analytics. Each step followed the same instinct: something's off, let me figure out what. That's still how I approach most problems. Data work, at its best, feels like detective work.
+            I didn't plan to end up in BI. I made my way through accounts payable exceptions, moved into procurement QA, and eventually landed in data analytics. Each step followed the same instinct: something's off, let me figure out what. That's still how I approach most problems. Data work, at its best, feels like detective work.
           </p>
           <p>
-            Japan has been a pull since I was a kid. Anime before it was cool, the food, the culture, the language I always wished I'd learned in school. It was never a career calculation. I'm studying Japanese now and working toward making the move.
+            Japan has intrigued me since I was a kid. Anime before it was cool, the food, the culture, the language I always wished I'd learned in school. It was never a career calculation. I'm studying Japanese now and working toward making the move.
           </p>
           <p>
             On the work itself: I care about clean queries, well-structured models, and not overengineering things. I've inherited enough messy setups to know how much that stuff compounds. I try to leave things in a state I'd want to find them.
