@@ -395,6 +395,26 @@
     }
     .about-heading em { font-style: italic; color: var(--accent); }
 
+    .about-sub-label {
+      font-family:    var(--f-mono);
+      font-size:      0.7rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color:          var(--faint);
+      margin-bottom:  1rem;
+      margin-top:     2.5rem;
+      display:        flex;
+      align-items:    center;
+      gap:            0.75rem;
+    }
+    .about-sub-label::after {
+      content:    "";
+      flex:       1;
+      height:     1px;
+      background: var(--bg-shade);
+      max-width:  120px;
+    }
+
     .about-body p {
       font-size:   1.1rem;
       line-height: 1.75;
@@ -647,8 +667,25 @@
             Japan has intrigued me since I was a kid. Anime before it was cool, the food, the culture, the language I always wished I'd learned in school. It was never a career calculation. I'm studying Japanese now and working toward making the move.
           </p>
           -->
+          <div class="about-sub-label">Professional</div>
           <p>
-            On the work itself: I care about clean queries, well-structured models, and not overengineering things. I've inherited enough messy setups to know how much that stuff compounds. I try to leave things in a state I'd want to find them.
+            I learned SQL through trial by fire.
+          </p>
+          <p>
+            That's why developing clean queries, well-structured models, and intentional engineering is important to me. We've all inherited enough projects to know how much it matters. Data and analytics leave my hands in a state I'd want to inherit.
+          </p>
+          <div class="about-sub-label">Personal</div>
+          <p>
+            I'm a collector by nature.
+          </p>
+          <p>
+            I love collecting music -- the physical variety -- vinyl, jewel cases, digipaks. Hip hop is my centerpiece.
+          </p>
+          <p>
+            Obsessions keep me going. Space sciences and quantum field theory are all-consuming; time and light are especially fascinating. I also have a fondness for Japanese culture, language, and history.
+          </p>
+          <p>
+            Contrary to public perception, I find AI amazing. I'm eager to see how it evolves and how we evolve with it. It seems inevitable like the printing press or the internet.
           </p>
         </div>
       </div>
