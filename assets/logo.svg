@@ -1,5 +1,6 @@
-<svg viewBox="0 0 110 76" xmlns="http://www.w3.org/2000/svg">
-  <polygon points="60,35 40,66 80,66" stroke="#C4956A" stroke-width="3" fill="none" stroke-linejoin="round"/>
-  <text x="12" y="70" font-size="58" font-family="Georgia, serif" fill="#F5EFE6">D</text>
-  <text x="80" y="70" font-size="58" font-family="Georgia, serif" fill="#F5EFE6" text-anchor="middle">T</text>
+<svg viewBox="0 0 110 110" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="55" cy="55" r="55" fill="#1A0D08"/>
+  <polygon points="60,41 40,72 80,72" stroke="#C4956A" stroke-width="3" fill="none" stroke-linejoin="round"/>
+  <text x="16" y="76" font-size="58" font-family="Georgia, serif" fill="#F5EFE6">D</text>
+  <text x="76" y="76" font-size="58" font-family="Georgia, serif" fill="#F5EFE6" text-anchor="middle">T</text>
 </svg>
