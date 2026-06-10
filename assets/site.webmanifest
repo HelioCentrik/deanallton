@@ -1,0 +1,12 @@
+{
+  "name": "Portfolio Website",
+  "short_name": "Portfolio",
+  "icons": [
+    {
+      "src": "./your-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable any"
+    }
+  ]
+}
